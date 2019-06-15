@@ -3,4 +3,4 @@
 
 User-agent: *
 Allow: /
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://gaurav-bothra.github.io/sitemap.xml
