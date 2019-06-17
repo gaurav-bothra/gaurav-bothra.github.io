@@ -9,7 +9,7 @@
     "theme_color" : "#37d6bd",
     "description" : "Gaurav Bothra : Blockchain Developer | ML & DL Expert | IoT Developer | Full Stack Developer",
     "orientation" : "portrait",
-    "background_color" : "blue",
+    "background_color" : "#37d6bd",
  "icons": [
   {
    "src": "/icons/android-icon-36x36.png",
