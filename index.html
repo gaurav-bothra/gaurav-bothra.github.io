@@ -27,6 +27,15 @@
      content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
 />
     <meta property="og:image:alt" content="Gaurav Bothra" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "223c9921-5745-4fd7-af3d-1e170a75973d",
+    });
+  });
+</script>
     <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
@@ -1218,6 +1227,19 @@
                                     </figcaption>
                                 </figure>
                             </div>
+                        </div>
+                        <div class="portfolioContainer row">
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                <figure>
+                                    <img src="/assets/images/undraw_segment_analysis_bdn4.svg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <i class="fa fa-search"></i>
+                                        <h5 class="title">Aspect Based Sentiment Analysis</h5>
+                                        <span class="sub-title">Hotel Reviews, Resturants Reviews Analysis</span>
+                                        <a data-fancybox data-src="#absa"></a>
+                                    </figcaption>
+                                </figure>
+                            </div>
                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
                                 <figure>
                                     <img src="/assets/images/undraw_winners_ao2o.svg" alt="">
@@ -1229,6 +1251,7 @@
                                     </figcaption>
                                 </figure>
                             </div>
+                        </div>
                             <!-- <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
                                 <figure>
                                     <img src="assets/images/portfolio/g2.png" alt="img04">
@@ -1427,6 +1450,37 @@
                                 <li><span>Asset Tracking Solutions</span></li>
                                 <li><span><a href="https://github.com/HonestBlocks/Swastha-App/" style="color:blue">Github Repo</a></span></li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mh-portfolio-modal" id="absa">
+            <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                    <div class="col-sm-5">
+                        <h2>Aspect Based Sentiment Analysis - Using Bi-Direction LSTM.</h2>
+                        <p> 
+                            Identifies aspects mentioned in text and then analyzes the sentiment towards each of the aspects mentioned. Great for analyzing reviews!
+                        </p>
+
+                        <p>
+                        </p>
+                        <div class="mh-about-tag">
+                            <ul>
+                                <li><span>TensorFlow</span></li>
+                                <li><span>LSTM</span></li>
+                                <li><span>Python</span></li>
+                                <li><span>NLP</span></li>
+                                <li><span>Spacy</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="mh-portfolio-modal-img">
+                            <img src="./assets/images/absa_1.png" width="620" height="540"/>
+                            <img src="./assets/images/absa_2.png" width="620" height="540"/>
+                            <img src="./assets/images/absa_3.png" width="620" height="540"/>
                         </div>
                     </div>
                 </div>
